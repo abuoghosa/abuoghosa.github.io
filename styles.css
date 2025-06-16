@@ -5,11 +5,16 @@ body {
     background-color: #f8f9fa;
     color: #333;
 }
-nav {
-    background-color: #343a40;
+nav ul li a {
+    font-size: 1.5em;
     color: white;
-    padding: 1em;
+    text-decoration: none;
 }
+
+nav ul li a:hover {
+    color: #17a2b8;
+}
+
 nav h1, nav p, nav ul {
     margin: 0.2em 0;
 }
