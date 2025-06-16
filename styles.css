@@ -1,3 +1,4 @@
+# Define the corrected CSS content with updated icon padding and layout improvements
 styles_css_corrected = """
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap');
 
@@ -41,19 +42,23 @@ nav p {
 nav ul {
     display: flex;
     justify-content: center;
-    gap: 1.2em;
+    gap: 1.5em;
     list-style: none;
-    padding: 0;
+    padding: 1.2em 0 0.5em 0;
+    margin-top: 1.5em;
 }
 
 nav ul li a {
-    font-size: 1.5em;
+    font-size: 1.6em;
     color: #e2e8f0;
-    transition: color 0.3s;
+    transition: color 0.3s ease;
+    padding: 0.3em 0.5em;
     text-decoration: none;
+    border-radius: 8px;
 }
 
 nav ul li a:hover {
+    background-color: #1e293b;
     color: #38bdf8;
 }
 
