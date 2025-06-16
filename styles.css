@@ -1,34 +1,92 @@
+/* Import a clean Google Font */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap');
 
 body {
-    font-family: Arial, sans-serif;
-    margin: 2em;
-    background-color: #f8f9fa;
-    color: #333;
+    font-family: 'Inter', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to right, #f1f5f9, #e2e8f0);
+    color: #1f2937;
 }
+
+/* Navigation styling */
+nav {
+    text-align: center;
+    background-color: #0f172a;
+    color: white;
+    padding: 2em 1em;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+nav img {
+    width: 140px;
+    height: 140px;
+    object-fit: cover;
+    border-radius: 50%;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    margin-bottom: 1em;
+}
+
+nav h1 {
+    font-size: 2em;
+    margin-bottom: 0.2em;
+}
+
+nav p {
+    font-size: 1.1em;
+    margin-bottom: 1em;
+    color: #cbd5e1;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    gap: 1.2em;
+    list-style: none;
+    padding: 0;
+}
+
 nav ul li a {
     font-size: 1.5em;
-    color: white;
+    color: #e2e8f0;
+    transition: color 0.3s;
     text-decoration: none;
 }
 
 nav ul li a:hover {
-    color: #17a2b8;
+    color: #38bdf8;
 }
 
-nav h1, nav p, nav ul {
-    margin: 0.2em 0;
-}
-nav ul {
-    list-style-type: none;
-    padding: 0;
-}
-nav ul li {
-    display: inline;
-    margin-right: 1em;
-}
-a {
-    color: #17a2b8;
-}
+/* Section styling */
 section {
-    margin-top: 2em;
+    max-width: 800px;
+    margin: 2em auto;
+    padding: 2em;
+    background-color: white;
+    border-radius: 12px;
+    box-shadow: 0 8px 16px rgba(0,0,0,0.06);
+}
+
+section h2 {
+    color: #0f172a;
+    margin-bottom: 0.8em;
+    font-weight: 600;
+}
+
+section ul {
+    padding-left: 1.5em;
+    margin-top: 0.5em;
+}
+
+section ul li {
+    margin-bottom: 0.5em;
+}
+
+a {
+    color: #2563eb;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
 }
